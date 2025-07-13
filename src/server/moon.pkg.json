@@ -1,0 +1,14 @@
+{
+  "import": [
+    "mtranter/artemis/core"
+  ],
+  "native-stub": [
+    "webserver_stub.c"
+  ],
+  "link": {
+    "native": {
+      "cc-flags": "-c",
+      "stub-cc-flags": "`pkg-config --cflags libevent`"
+    }
+  } 
+}

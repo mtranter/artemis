@@ -1,0 +1,13 @@
+{
+  "is-main": true,
+  "import": [
+    "mtranter/artemis/server",
+    "mtranter/artemis/core",
+    "mtranter/artemis/routing"
+  ],
+  "link": {
+    "native": {
+      "cc-link-flags": "`pkg-config --libs libevent`"
+    }
+  } 
+}
